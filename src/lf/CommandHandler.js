@@ -10,7 +10,6 @@ window.lf = window.lf || {};
 
         /**
          * @abstract
-         * @param {Command} command
          */
         handle(command) {
         }

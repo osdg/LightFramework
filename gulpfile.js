@@ -11,6 +11,7 @@ gulp.task("default", function () {
         "src/lf/Command.js",
         "src/lf/CommandAdapter.js",
         "src/lf/CommandHandler.js",
+        "src/lf/ViewController.js",
         "src/lf/Gate.js"
     ]).pipe(concat("lf.js"))
         .pipe(gulp.dest("build"));
